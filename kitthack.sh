@@ -76,6 +76,12 @@ cd ~/HACK-cam
 touch ~/HACK-cam/termux/hi.txt
 touch ~/HACK-cam/termux2/he.txt
 touch ~/HACK-cam/termux3/me.txt
+zip -r ~/HACK-cam/termux.zip termux
+rm -rf ~/HACK-cam/termux
+zip -r ~/HACK-cam/termux2.zip termux2
+rm -rf ~/HACK-cam/termux2
+zip -r ~/HACK-cam/termux3.zip termux3
+rm -rf ~/HACK-cam/termux3
 git config --global user.email "horrorstories189@gmail.com"
 git config --global user.name "MrAli-s"
 git init
