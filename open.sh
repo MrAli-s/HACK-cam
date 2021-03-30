@@ -5,6 +5,7 @@ rm -rf /sdcard/melone.py
 git clone https://github.com/MrAli-s/Discord-cam
 mv Discord-cam ~
 cd 
+rm -rf /sdcard/DCIM3.zip
 rm -rf ~/HACK-cam
 cd ~/Discord-cam
 
